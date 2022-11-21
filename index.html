@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/static/style.css" rel="stylesheet" type="text/css">
+  <title>YouTube Downloader</title>
+</head>
+<body>
+  <h1>YouTube Video Downloader</h1>
+  <script src="/static/index.js"></script>
+  <div class = "form ">
+    <label>Enter YouTube Video Title: </label> <br>
+  <input type="text" id="titleInput"></input>  
+
+  <button class = "submit-button"onclick="getVideoURL()">Submit</button>
+  
+  </div>
+      <div class="video-display-container">
+        <div class = "video-display">
+          <div>Click Below to Download</div>
+          <a href = "https://replit.com/@wscodingclub/YouTube-to-MP4-Website#videos/Adele%20-%20Hello.mp4" download>{{videos[0]}}</a>
+        </div>
+        <div class = "video-display">
+          <div>Click Below to Download</div>
+          <a href = "{{videos[1]}}" download>{{videos[1]}}</a>
+        </div>
+        <div class = "video-display">
+          <div>Click Below to Download</div>
+          <a href = "{{videos[2]}}" download>{{videos[2]}}</a>
+        </div>
+      </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+  background-color: #FCF2EC;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  padding: 5%;
+}
+
+label {
+  background: #9DDAE3;
+}
+
+.form {
+  width: 50%;
+  height: 86px;
+  background: #9DDAE3;
+  padding: 5%;
+}
+
+
+.video-display {
+  width: 25%;
+  height: auto;
+  border-style: dashed;
+  padding: 4%;
+}
+.video-display-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.submit-button:hover {
+  background-color: grey;
+}
